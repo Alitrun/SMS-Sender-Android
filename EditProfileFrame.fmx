@@ -1,0 +1,136 @@
+object frameEditProfile: TframeEditProfile
+  Align = Client
+  Size.Width = 375.000000000000000000
+  Size.Height = 425.000000000000000000
+  Size.PlatformDefault = False
+  object ebProfileName: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    StyleLookup = 'editstyle'
+    TabOrder = 0
+    ReturnKeyType = Next
+    Position.X = 10.000000000000000000
+    Position.Y = 10.000000000000000000
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 15.000000000000000000
+    Size.Width = 355.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    KillFocusByReturn = True
+    object ClearEditButton1: TClearEditButton
+      CanFocus = False
+      Cursor = crArrow
+      Size.Width = 32.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object GlowRed: TGlowEffect
+      Softness = 0.400000005960464400
+      GlowColor = claRed
+      Opacity = 0.899999976158142100
+      Enabled = False
+    end
+  end
+  object ListBox1: TListBox
+    Align = Client
+    Margins.Left = 1.000000000000000000
+    Margins.Right = 1.000000000000000000
+    Size.Width = 373.000000000000000000
+    Size.Height = 368.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'transparentlistboxstyle'
+    TabOrder = 1
+    TabStop = False
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 373.000000000000000000
+    Viewport.Height = 368.000000000000000000
+    object lbhDescript: TListBoxGroupHeader
+      Selectable = False
+      Size.Width = 373.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxplainheader'
+      TabOrder = 0
+      TabStop = False
+      Text = 'Description'
+    end
+    object lbiDescript: TListBoxItem
+      Selectable = False
+      Position.Y = 30.000000000000000000
+      Size.Width = 373.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      TabStop = False
+      object ebDescript: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'editstyle'
+        TabOrder = 0
+        ReturnKeyType = Next
+        Margins.Left = 2.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 1.000000000000000000
+        Size.Width = 369.000000000000000000
+        Size.Height = 31.000000000000000000
+        Size.PlatformDefault = False
+        KillFocusByReturn = True
+        object ClearEditButton2: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 32.000000000000000000
+          Size.Height = 27.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+      end
+    end
+    object lbhSmsText: TListBoxGroupHeader
+      Selectable = False
+      Position.Y = 62.000000000000000000
+      Size.Width = 373.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxplainheader'
+      TabOrder = 2
+      TabStop = False
+      Text = 'Text of SMS (max 160 chars)'
+    end
+    object lbiSmsText: TListBoxItem
+      AutoTranslate = False
+      Selectable = False
+      Position.Y = 92.000000000000000000
+      Size.Width = 373.000000000000000000
+      Size.Height = 100.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemnodetail'
+      TabOrder = 3
+      TabStop = False
+      object memText: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        MaxLength = 160
+        ShowScrollBars = False
+        TextSettings.WordWrap = True
+        OnChangeTracking = memTextChangeTracking
+        Align = Client
+        Bounces = True
+        Margins.Left = 3.000000000000000000
+        Margins.Right = 3.000000000000000000
+        Margins.Bottom = 1.000000000000000000
+        Size.Width = 367.000000000000000000
+        Size.Height = 99.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 363.000000000000000000
+        Viewport.Height = 95.000000000000000000
+      end
+    end
+  end
+end

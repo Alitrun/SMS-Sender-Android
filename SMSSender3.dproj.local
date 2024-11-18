@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.143,=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.947,=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.210,C:\Projects\SMSSender\SettingsFile.pas=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.764,C:\Projects\SMSSender\MainPageFrame.pas=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.092,=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.089,C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Projects\SMSSender\MainForm.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.089,C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Projects\SMSSender\MainForm.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.723,=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.102,=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.119,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.526,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.164,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.000,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.903,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.688,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.816,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.575,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.237,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.599,C:\Projects\SMSSender\SMSSender2.dproj=C:\Projects\SMSSender\SMSSender1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.732,=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.815,=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.158,=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.908,=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.613,=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.023,=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.432,C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Projects\SMSSender\SMSSender.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.398,=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.042,=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.496,=C:\Projects\SMSSender\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.837,=C:\Projects\SMSSender\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.750,C:\Projects\SMSSender\SMSSender2.dproj=C:\Projects\SMSSender\SMSSender3.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.065,C:\Projects\SMSSender\EditCampaignFrame.fmx=C:\Projects\SMSSender\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.512,C:\Projects\SMSSender\Unit2.pas=C:\Projects\SMSSender\Misc.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.946,=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.906,=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.419,C:\Projects\SMSSender\Unit1.pas=C:\Projects\SMSSender\Core.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.896,C:\Projects\SMSSender\Unit1.pas=C:\Projects\SMSSender\EditProfileFrame.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.532,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.068,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.457,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.829,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.083,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.659,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.311,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.175,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.641,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.055,C:\Projects\SMSSender\Campaigns.pas=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.065,C:\Projects\SMSSender\EditCampaignFrame.pas=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.286,C:\Projects\SMSSender\SMSSender.dproj=C:\Projects\SMSSender\SMSSender1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.764,C:\Projects\SMSSender\MainPageFrame.fmx=C:\Projects\SMSSender\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.103,C:\Projects\SMSSender\Scheduler.pas=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.962,C:\Projects\SMSSender\Misc.pas=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.819,C:\Projects\SMSSender\Misc.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.896,C:\Projects\SMSSender\Unit1.fmx=C:\Projects\SMSSender\EditProfileFrame.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.724,C:\Projects\SMSSender\Android.SMS.pas=C:\Projects\SMSSender\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.829,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.094,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.213,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.010,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.886,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.568,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.007,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.260,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.657,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.267,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.020,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.267,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.446,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.564,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.643,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.922,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.533,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.954,C:\Projects\SMSSender\Java\output\jar\test_classes.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.634,=C:\Projects\SMSSender\Java\output\jar\test_classes.jar</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="SH36JLY00507" iOSSimulator="iPhone5"/>
+		<P1 iOSSimulator="iPhone5"/>
+		<P12 iOSSimulator="iPhone5"/>
+		<P2 iOSSimulator="iPhone5" iOSDevice32="_iosdevice_68e1c96bfadf5bcfca17a05d9a873402e704a5f5" iOSDevice64="_iosdevice_68e1c96bfadf5bcfca17a05d9a873402e704a5f5"/>
+	</ActiveMobileDevice>
+	<BT_BuildType>AppStore</BT_BuildType>
+</BorlandProject>

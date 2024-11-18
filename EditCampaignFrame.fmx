@@ -1,0 +1,358 @@
+object FrameEditCampaign: TFrameEditCampaign
+  StyleName = 'backgroundstyle'
+  Align = Client
+  Size.Width = 364.000000000000000000
+  Size.Height = 619.000000000000000000
+  Size.PlatformDefault = False
+  OnResize = FrameResize
+  object ebCampaignName: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    StyleLookup = 'editstyle'
+    TabOrder = 1
+    Position.X = 10.000000000000000000
+    Position.Y = 10.000000000000000000
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Size.Width = 344.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    KillFocusByReturn = True
+    object ClearEditButton1: TClearEditButton
+      CanFocus = False
+      Cursor = crArrow
+      Size.Width = 32.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object GlowRed: TGlowEffect
+      Softness = 0.400000005960464500
+      GlowColor = claRed
+      Opacity = 0.899999976158142100
+      Enabled = False
+    end
+  end
+  object lb: TListBox
+    Align = Client
+    Margins.Left = 1.000000000000000000
+    Margins.Right = 1.000000000000000000
+    Size.Width = 362.000000000000000000
+    Size.Height = 567.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'transparentlistboxstyle'
+    TabOrder = 3
+    TabStop = False
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 362.000000000000000000
+    Viewport.Height = 567.000000000000000000
+    object lbhDescription: TListBoxGroupHeader
+      Selectable = False
+      Size.Width = 362.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxplainheader'
+      TabOrder = 7
+      Text = 'Description'
+    end
+    object ListBoxItem4: TListBoxItem
+      Selectable = False
+      Position.Y = 30.000000000000000000
+      Size.Width = 362.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemnodetail'
+      TabOrder = 8
+      object ebDescript: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'editstyle'
+        TabOrder = 0
+        ReturnKeyType = Next
+        Margins.Left = 2.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Size.Width = 358.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        KillFocusByReturn = True
+        object ClearEditButton2: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 32.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object GlowEffect1: TGlowEffect
+          Softness = 0.400000005960464500
+          GlowColor = claRed
+          Opacity = 0.899999976158142100
+          Enabled = False
+        end
+      end
+    end
+    object lbhProfiles: TListBoxGroupHeader
+      Selectable = False
+      StyledSettings = [Family, Size, Style, FontColor]
+      Position.Y = 62.000000000000000000
+      Size.Width = 362.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxplainheader'
+      TabOrder = 3
+      TabStop = False
+      Text = 'Text Profiles'
+    end
+    object lbiProfiles: TListBoxItem
+      Selectable = False
+      StyledSettings = [Family, Size, Style, FontColor]
+      Padding.Left = 8.000000000000000000
+      Position.Y = 92.000000000000000000
+      Size.Width = 362.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemrightdetail'
+      TabOrder = 2
+      TabStop = False
+      object lblProfiles: TLabel
+        Align = Client
+        Size.Width = 274.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Trimming = Word
+        Text = 'Text Profile1, Text Profile2'
+      end
+      object btnEditProfiles: TSpeedButton
+        Align = Right
+        Position.X = 282.000000000000000000
+        Size.Width = 80.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'composetoolbutton'
+        Text = 'SpeedButton1'
+        OnClick = btnEditProfilesClick
+      end
+    end
+    object lbhGroups: TListBoxGroupHeader
+      Selectable = False
+      StyledSettings = [Family, Size, Style, FontColor]
+      Position.Y = 142.000000000000000000
+      Size.Width = 362.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxplainheader'
+      TabOrder = 6
+      TabStop = False
+      Text = 'Groups of Contacts'
+    end
+    object lbiGroups: TListBoxItem
+      Selectable = False
+      StyledSettings = [Family, Size, Style, FontColor]
+      Padding.Left = 8.000000000000000000
+      Position.Y = 172.000000000000000000
+      Size.Width = 362.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemlabel'
+      TabOrder = 1
+      TabStop = False
+      object lblGroups: TLabel
+        Align = Client
+        Size.Width = 274.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Trimming = Word
+        Text = 'Group1, Group2, Group3, Group3, Group4, Group5, Group6, Group1'
+      end
+      object btnEditGroups: TSpeedButton
+        Align = Right
+        Position.X = 282.000000000000000000
+        Size.Width = 80.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'composetoolbutton'
+        Text = 'btnEditGroups'
+        OnClick = btnEditGroupsClick
+      end
+    end
+    object lbhStartCampaign: TListBoxGroupHeader
+      Selectable = False
+      StyledSettings = [Family, Size, Style, FontColor]
+      Position.Y = 222.000000000000000000
+      Size.Width = 362.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxplainheader'
+      TabOrder = 5
+      TabStop = False
+      Text = 'Start Campaign'
+    end
+    object lbiStartCampaign: TListBoxItem
+      Selectable = False
+      Position.Y = 252.000000000000000000
+      Size.Width = 362.000000000000000000
+      Size.Height = 89.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemrightdetail'
+      TabOrder = 0
+      TabStop = False
+      object DateEditStart: TDateEdit
+        Date = 42816.000000000000000000
+        TodayDefault = True
+        DateFormatKind = Long
+        Position.X = 6.000000000000000000
+        Position.Y = 13.000000000000000000
+        Size.Width = 251.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'dateeditstyle'
+        TabOrder = 5
+      end
+      object TimeEditStart: TTimeEdit
+        Time = 0.791666666666666600
+        Margins.Top = 15.000000000000000000
+        Position.X = 6.000000000000000000
+        Position.Y = 49.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+      end
+    end
+    object lbhRepeat: TListBoxGroupHeader
+      Selectable = False
+      StyledSettings = [Family, Size, Style, FontColor]
+      Position.Y = 341.000000000000000000
+      Size.Width = 362.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxplainheader'
+      TabOrder = 4
+      TabStop = False
+      Text = 'Repeat'
+    end
+    object lbiRepeat: TListBoxItem
+      Selectable = False
+      Padding.Top = 7.000000000000000000
+      Margins.Bottom = 15.000000000000000000
+      Position.Y = 371.000000000000000000
+      Size.Width = 362.000000000000000000
+      Size.Height = 161.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemleftdetail'
+      TabOrder = 9
+      object lblNextRepeat: TLabel
+        Align = Top
+        Anchors = []
+        AutoSize = True
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Left = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 7.000000000000000000
+        Size.Width = 354.000000000000000000
+        Size.Height = 18.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.WordWrap = False
+        TextSettings.Trimming = None
+        Text = 'Next repeat time'
+      end
+      object cbExpires: TComboBox
+        Items.Strings = (
+          'Forever'
+          'Until')
+        Position.X = 6.000000000000000000
+        Position.Y = 80.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        OnChange = cbExpiresChange
+      end
+      object deRepeatDateEnd: TDateEdit
+        IsChecked = False
+        Date = 42787.000000000000000000
+        DateFormatKind = Long
+        Anchors = [akLeft, akTop, akRight]
+        Position.X = 122.000000000000000000
+        Position.Y = 80.000000000000000000
+        Size.Width = 238.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'dateeditstyle'
+        TabOrder = 4
+      end
+      object cbRepeat: TComboBox
+        Items.Strings = (
+          'Never'
+          'By Hours'
+          'By Days'
+          'By Weeks'
+          'By Months'
+          'By Years')
+        ItemIndex = 0
+        Position.X = 6.000000000000000000
+        Position.Y = 32.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnChange = cbRepeatChange
+      end
+      object sbRepeatNum: TSpinBox
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 2
+        Cursor = crIBeam
+        Min = 1.000000000000000000
+        Max = 366.000000000000000000
+        Value = 1.000000000000000000
+        RepeatClick = True
+        Position.X = 122.000000000000000000
+        Position.Y = 32.000000000000000000
+        Size.Width = 238.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        KillFocusByReturn = True
+        OnChange = sbRepeatNumChange
+        object lblHoursDays: TLabel
+          Align = Right
+          Margins.Right = 30.000000000000000000
+          Position.X = 148.000000000000000000
+          Size.Width = 60.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          TextSettings.Trimming = None
+          Text = 'days'
+        end
+        object lblEvery: TLabel
+          Align = Left
+          AutoSize = True
+          Margins.Left = 30.000000000000000000
+          Position.X = 30.000000000000000000
+          Size.Width = 32.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          TextSettings.Trimming = None
+          Text = 'Every '
+        end
+      end
+      object teRepeatTimeEnd: TTimeEdit
+        Time = 0.791666666666666600
+        Position.X = 124.000000000000000000
+        Position.Y = 126.000000000000000000
+        Size.Width = 85.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+      end
+    end
+  end
+end

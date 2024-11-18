@@ -1,0 +1,72 @@
+object frameMainPage: TframeMainPage
+  Align = Client
+  Size.Width = 400.000000000000000000
+  Size.Height = 489.000000000000000000
+  Size.PlatformDefault = False
+  OnResize = FrameResize
+  object Layout1: TLayout
+    Align = Top
+    HitTest = True
+    Size.Width = 400.000000000000000000
+    Size.Height = 221.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object btnCampaigns: TCornerButton
+      Align = Center
+      AutoTranslate = False
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 171.000000000000000000
+      Size.Height = 141.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = '1dashbtn'
+      TabOrder = 4
+      Text = 'Campaigns'
+      TextSettings.WordWrap = True
+      XRadius = 20.000000000000000000
+      YRadius = 20.000000000000000000
+    end
+  end
+  object Layout2: TLayout
+    Align = Left
+    Position.Y = 221.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 268.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object btnGroups: TCornerButton
+      Align = Center
+      StyledSettings = [Family, Size, FontColor]
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 130.000000000000000000
+      Size.Height = 110.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = '1dashbtn'
+      TabOrder = 2
+      Text = 'Groups'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.WordWrap = True
+      XRadius = 20.000000000000000000
+      YRadius = 20.000000000000000000
+    end
+  end
+  object Layout3: TLayout
+    Align = Client
+    Size.Width = 199.000000000000000000
+    Size.Height = 268.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object btnProfiles: TCornerButton
+      Align = Center
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 130.000000000000000000
+      Size.Height = 110.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = '1dashbtn'
+      TabOrder = 3
+      Text = 'Messages'
+      TextSettings.WordWrap = True
+      XRadius = 20.000000000000000000
+      YRadius = 20.000000000000000000
+    end
+  end
+end
